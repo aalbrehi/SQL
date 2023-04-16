@@ -1,0 +1,17 @@
+Create table car_parts (id integer, name text, price integer, stock_available integer, ratings integer);
+
+Insert into car_parts values (1, "ramp", 150, 5, 2);
+Insert into car_parts values (2, "oil", 80, 10, 4);
+Insert into car_parts values (3, "tires", 200, 8, 5);
+Insert into car_parts values (4, "headlight", 10, 3, 2);
+Insert into car_parts values (5, "taillight", 9, 4, 3);
+Insert into car_parts values (6, "camshaft", 500, 3, 4);
+Insert into car_parts values (7, "brake pad", 100, 11, 5);
+Insert into car_parts values (8, "rotor", 150, 9, 3);
+Insert into car_parts values (9, "grease", 3, 13, 1);
+Insert into car_parts values (10, "washer fluid", 2, 15, 3);
+Insert into car_parts values (11, "spark plug", 4, 18, 4);
+Insert into car_parts values (12, "battery", 200, 8, 5);
+Insert into car_parts values (13, "jack stand", 100, 3, 2);
+Insert into car_parts values (14, "tow hitch", 25, 4, 3);
+Insert into car_parts values (15, "floor mat", 30, 11, 2);
