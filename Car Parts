@@ -15,3 +15,12 @@ Insert into car_parts values (12, "battery", 200, 8, 5);
 Insert into car_parts values (13, "jack stand", 100, 3, 2);
 Insert into car_parts values (14, "tow hitch", 25, 4, 3);
 Insert into car_parts values (15, "floor mat", 30, 11, 2);
+
+
+-display the database ordered by price.
+SELECT * FROM car_parts
+ORDER BY price asc;
+
+-what is the avg price of items:
+SELECT AVg(price)
+FROM car_parts;
