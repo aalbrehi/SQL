@@ -22,5 +22,11 @@ SELECT * FROM car_parts
 ORDER BY price asc;
 
 -what is the avg price of items:
-SELECT AVg(price)
+SELECT AVG(price)
 FROM car_parts;
+
+-what is the most expensive item?
+SELECT MAX(price)
+FROM car_parts;
+
+
